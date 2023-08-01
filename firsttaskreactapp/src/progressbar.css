@@ -1,0 +1,27 @@
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the progress bar itself */
+  .progress {
+    height: 100%;
+    
+    transition: width 0.3s ease;
+  }
+  
+  /* Optional style to center the progress text inside the progress bar */
+  .progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Optional style to add some spacing between the buttons */
+  button {
+    margin-right: 10px;
+  }
