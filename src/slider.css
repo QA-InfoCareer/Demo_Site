@@ -1,0 +1,14 @@
+.input {
+    --webkit-appearance: none;
+     height: 0.4em;
+     width:80%;
+     background: #ced4da;
+}
+input ::-webkit-slider-thumb{
+    --webkit-appearance: none;
+    width:20px;
+    height: 20px;
+    background: #ced4da;
+    border-radius: 50%; 
+    cursor: pointer;
+} 
